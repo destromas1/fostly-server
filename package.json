@@ -1,0 +1,33 @@
+{
+  "name": "fostly-server",
+  "version": "1.0.0",
+  "description": "link short app",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "config": "^3.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.3.14",
+    "morgan": "^1.9.1",
+    "shortid": "^2.2.14"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "supertest": "^3.3.0"
+  },
+  "scripts": {
+    "test": "mocha tests/link.test.js",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://shahjadatalukdar@bitbucket.org/shahjadatalukdar/fostly-server.git"
+  },
+  "author": "Shahjada Talukdar",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/shahjadatalukdar/fostly-server#readme"
+}
